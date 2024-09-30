@@ -1,0 +1,7 @@
+name = "TwMakieHelpers"
+uuid = "319ff0f0-2ac7-4e2b-af60-1edd76e04ccb"
+authors = ["Thomas Wutzler <twutz@bgc-jena.mpg.de> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"

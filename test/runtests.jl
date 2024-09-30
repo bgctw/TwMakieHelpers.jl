@@ -13,6 +13,7 @@ const GROUP = get(ENV, "GROUP", "All") # defined in in CI.yml
         #@safetestset "Tests" include("test/test_JET.jl")
         @time @safetestset "test_JET" include("test_JET.jl")
         #@safetestset "Tests" include("test/test_aqua.jl")
+        #[![Aqua](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
         #TODO @time @safetestset "test_Aqua" include("test_aqua.jl")
     end
 end

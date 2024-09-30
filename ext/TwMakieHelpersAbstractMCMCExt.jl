@@ -18,7 +18,8 @@ function CP.plot_chn(chns::AChains, args...; kwargs...)
 end
 
 function CP.plot_chn!(fig::Figure, 
-    chns::AChains; linkaxes=false, param_label="Parameter estimate",
+    chns::AChains; linkaxes=false, 
+    param_label="Parameter estimate",
     params = names(chns, :parameters)
     )
     n_chains = size(chns, 3)

@@ -13,7 +13,7 @@ function CP.density_dist(d::UnivariateDistribution; kwargs...)
     fig = Figure()
     ax = Axis(fig[1,1])
     CP.density_dist!(ax,d; kwargs...)
-    fig
+    return(fig)
 end
 
 function CP.density_dist!(ax, d::UnivariateDistribution;
@@ -34,7 +34,7 @@ function CP.density_dist!(ax, d::UnivariateDistribution;
     end
     lines!(ax, q, d; label, kwargs...)
     #hideydecorations!(ax, label = false, ticklabels = true)
-    label
+    return(label)
 end
 
 end

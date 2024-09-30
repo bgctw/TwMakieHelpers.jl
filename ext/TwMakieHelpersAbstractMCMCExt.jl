@@ -65,7 +65,7 @@ function CP.plot_chn!(fig::Figure,
       linkxaxes!(axes...)
     end
     axislegend(first(axes))
-    fig
+    return(fig)
 end
 
 

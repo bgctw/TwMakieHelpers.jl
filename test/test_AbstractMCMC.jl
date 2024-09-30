@@ -15,4 +15,9 @@ end
     fig = plot_chn(chn)
     ax = fig.content[1,1]
     @test length(ax.scene.plots) >= 3
+    #
+    fig = plot_chn(chn; linkaxes=true)
+    ax = fig.content[1,1]
+    @test length(ax.scene.plots) >= 3
 end;
+

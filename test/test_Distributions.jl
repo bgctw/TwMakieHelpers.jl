@@ -20,7 +20,7 @@ end
     axislegend(ax, unique=true)
     fig
     #
-    # invoke with keyword arguemtns 
+    # invoke with keyword arguments 
     fig = density_dist.((d,d); normalize = true)
 end;
 

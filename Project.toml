@@ -15,7 +15,7 @@ TwMakieHelpersAbstractMCMCExt = "AbstractMCMC"
 TwMakieHelpersDistributionsExt = "Distributions"
 
 [compat]
-Makie = "0.21"
+Makie = "0.21, 0.22"
 julia = "1.10"
 AbstractMCMC = "5.3"
 Distributions = "0.25"

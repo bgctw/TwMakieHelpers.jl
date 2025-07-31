@@ -48,13 +48,13 @@ jobs:
           # Check if you have a deploy key setup using these docs: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/reviewing-your-deploy-keys.
           COMPATHELPER_PRIV: ${{ secrets.DOCUMENTER_KEY }}
           # COMPATHELPER_PRIV: ${{ secrets.COMPATHELPER_PRIV }}
-  keepalive-job:
-      name: Keepalive Workflow
-      runs-on: ubuntu-latest
-      permissions:
-        actions: write
-      steps:
-        - uses: actions/checkout@v4
-          with:
-            ref: 'keepalive'      # The branch, tag or SHA to checkout.       
-        - uses: gautamkrishnar/keepalive-workflow@v2          
+  # keepalive-job:
+  #     name: Keepalive Workflow
+  #     runs-on: ubuntu-latest
+  #     permissions:
+  #       actions: write
+  #     steps:
+  #       - uses: actions/checkout@v4
+  #         with:
+  #           ref: 'keepalive'      # The branch, tag or SHA to checkout.       
+  #       - uses: gautamkrishnar/keepalive-workflow@v2          

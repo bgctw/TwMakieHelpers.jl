@@ -5,6 +5,8 @@
 [![Build Status](https://github.com/bgctw/TwMakieHelpers.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/bgctw/TwMakieHelpers.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/bgctw/TwMakieHelpers.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/bgctw/TwMakieHelpers.jl)
 
+## deprecated: Moved to FigureHelpers
+
 Provides customized Makie-Plots for several types.
 - Density plots of `Distributions`
 - Trace- and density plots for `AbstractMCMC` chains
